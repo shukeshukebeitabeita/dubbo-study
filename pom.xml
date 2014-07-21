@@ -181,6 +181,7 @@
   <modules>
   	<module>dubbo-provider</module>
   	<module>dubbo-consumer</module>
+  	<module>Dubbo-interface</module>
   </modules>
   
 </project>
