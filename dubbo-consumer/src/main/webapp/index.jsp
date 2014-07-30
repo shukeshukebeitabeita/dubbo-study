@@ -2,4 +2,5 @@ consumer test index.
 
 <br>
 
-${result}
+${result}<br>
+${useTimes}<br>

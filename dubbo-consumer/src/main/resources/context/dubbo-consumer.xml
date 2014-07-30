@@ -11,7 +11,22 @@
 	<!-- 使用multicast广播注册中心暴露发现服务地址 -->
 	<dubbo:registry address="multicast://224.5.6.7:1234" />
 	
+	
+	<!-- ///////////////////////////////////////////////////////// -->
+	
+	
+	
+
+	
 	<!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
 	<dubbo:reference id="demoService"
 		interface="lhj.dubbo.study.service.DemoService" />
+		
+		
+		
+	<!-- 扫描注解包路径，多个包用逗号分隔，不填pacakge表示扫描当前ApplicationContext中所有的类 -->
+	<dubbo:annotation package="lhj.dubbo.study" />
+	
+	
+	
 </beans>

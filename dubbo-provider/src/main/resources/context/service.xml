@@ -14,8 +14,22 @@
 	<dubbo:protocol name="dubbo" port="20880" />
 	<!-- 声明需要暴露的服务接口 -->
 	
+	<!-- ///////////////////////////////////////////////////////// -->
+
+
+	
 	<!-- 和本地bean一样实现服务 -->
 	<bean id="demoService" class="lhj.dubbo.study.service.impl.DemoServiceImpl" />
 	<dubbo:service interface="lhj.dubbo.study.service.DemoService" ref="demoService" />
+	
+	
+	
+	
+	
+	<!-- 扫描注解包路径，多个包用逗号分隔，不填pacakge表示扫描当前ApplicationContext中所有的类 -->
+	<dubbo:annotation package="lhj.dubbo.study.service" />
+	
+	
+	
 	
 </beans>
