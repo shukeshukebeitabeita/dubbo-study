@@ -13,6 +13,9 @@
  */
 package lhj.dubbo.study.service;
 
+import lhj.dubbo.study.service.model.Address;
+import lhj.dubbo.study.service.model.Person;
+
 /**
  * @author hongjian.liu
  * @version 1.0.0 2014-6-29
@@ -20,4 +23,7 @@ package lhj.dubbo.study.service;
  */
 public interface DemoAnnotationService {
 	String love(String name);
+	
+	//test pojo
+	Person<Address> getPerson(String name);
 }

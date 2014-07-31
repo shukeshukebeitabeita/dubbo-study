@@ -6,5 +6,5 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
-  <artifactId>Dubbo-interface</artifactId>
+  <artifactId>dubbo-interface</artifactId> 
 </project>

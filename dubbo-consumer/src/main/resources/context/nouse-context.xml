@@ -13,3 +13,4 @@
   http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd  
   http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd"> 
 </beans>
+<!-- 此文件暂时没有使用，可删除。 (原来是在web.xml中配置的，现在不用了) -->
